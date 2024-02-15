@@ -1,4 +1,4 @@
-package com.aman.Moivies;
+package com.aman.Movies;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;

@@ -1,4 +1,4 @@
-package com.aman.Moivies;
+package com.aman.Movies;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

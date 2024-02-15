@@ -1,4 +1,4 @@
-package com.aman.Moivies;
+package com.aman.Movies;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -9,6 +9,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/v1/reviews")
+@CrossOrigin(origins = "http://localhost:3000")
 public class ReviewController {
     @Autowired
     private ReviewService reviewService;
